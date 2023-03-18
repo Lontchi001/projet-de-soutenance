@@ -1,0 +1,13 @@
+body{
+   
+}
+.container{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.head a  {
+    text-decoration: none;
+    padding: 200px;
+}

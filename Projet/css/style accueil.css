@@ -1,0 +1,207 @@
+
+body{
+    background: rgb(34, 30, 30);
+}
+header{
+    height: 140vh;
+    position: relative;
+    background: linear-gradient(to left bottom, rgba(0, 38, 255, 0.192), rgba(0, 0, 0, 0.966) ) , url(Best\ Cyber\ Monday\ Tablet\ deals\ 2021\ —\ what’s\ still\ available.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+header h1{
+    justify-content: center;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    z-index: 0;
+}
+header h2{
+    text-align: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    z-index: 0;
+    font-size: 30px;
+}
+
+#im{
+    height: 220px;
+    transition: all .4s ease-in;
+}
+#im:hover{
+    transform: scaleY(1.02);
+   
+}
+small a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+transition: all .3s ease-in;
+font-size: 20px;
+}
+small a:hover{
+text-decoration: none;
+color: rgba(255, 0, 0, 0.753);
+transform: scale(1.2);
+transition: all .2s ease-in;
+}
+
+h5{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+
+/* /* nav bar ****************************** */
+#btn{
+    color: black;
+    margin-top: 5px;
+    border-radius: 20px;
+    background: rgba(250, 9, 9, 0.658);
+    transition: all .4s ease-in;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+#btn:hover{
+    color:white;
+    border-radius: 20px;
+    background: black;
+    border: red solid 1px;
+}
+#btc{
+    color: black;
+    border: solid 1px red;
+    margin-top: 5px;
+    border-radius: 20px;
+    background: white;
+    transition: all .4s ease-in;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+#btc:hover{
+    color: white;
+    border-radius: 20px;
+    background: black;
+}
+.topnav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 22323232;
+    
+    
+}
+.topnav a {
+    display: block;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 13px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 15px;
+    transition: all .2s ease-in;
+    margin-top: 5px;
+
+}
+.topnav a:hover {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+
+}
+.topnav .icon {
+    display: none;
+}
+
+
+
+/* footer ************************************************/
+
+#qq li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#contact h2{
+    color: red;
+    font-size: 20px;
+    border-left: solid red 2px;
+}
+#contact li{
+    color: white;
+}
+#ima{
+    height: 100px;
+
+}
+
+#ico{
+    color: red;
+}
+#part{
+    border-right: solid 5px red;
+}
+
+
+/* Responsive ******************************************/
+   @media screen and (max-width: 600px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .topnav{
+        z-index: 10000;
+    }
+
+   }
+   @media screen and (max-width: 770px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    #btn{
+        margin-left: 30%;
+        width: 40%;
+    }
+    #btc{
+        margin-left: 30%;
+        width: 40%;
+    }
+    
+    .topnav.responsive a {
+      float: none;
+      display: block;
+    }
+    #ww{
+        width: 70%;
+        margin-left: 15%;
+    }
+    /*************************dddddddddddddddddddddddddddd*************************/
+    header h1{
+        top: 100px;
+    }
+    header h2{
+        top: 400px;
+        text-align: center;
+        margin: auto;
+        left: 20px;
+        right: 20px;
+    }
+}
+    

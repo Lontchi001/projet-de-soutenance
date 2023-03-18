@@ -1,0 +1,61 @@
+
+body{
+    background: rgba(168, 9, 9, 0.534);
+}
+.container{
+    width: 50%;
+    margin-top: 6%;
+      margin-bottom: 6%;
+}
+form{
+    padding: 40px;
+    
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.61);
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #c20909;
+  margin-bottom: 25px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+@media screen and (max-width: 700px) {
+ 
+  .container{
+      width: 80%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      transition: all .4s ease;
+  }
+}
+

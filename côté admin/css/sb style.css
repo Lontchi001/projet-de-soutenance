@@ -1,0 +1,41 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+.main{
+    display: flex; 
+}
+.container{
+  margin-left: 200px;
+  text-align: center; 
+  
+}
+.sidebar{
+    height: 100%;
+    width: 200px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    
+}
+.sidebar a{
+padding: 6px 8px 6px 0px;
+
+font-size: 22px;
+color: #818181;
+display: block;
+float: left;
+text-decoration: none;
+margin-left: 5px;
+}
+.sidebar a:hover{
+color: #ffffff;
+}
+li{
+    list-style:  none;
+}

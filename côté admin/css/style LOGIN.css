@@ -1,0 +1,68 @@
+
+hr{
+border: 1px solid #c20909;
+  margin-bottom: 25px;
+}
+.container{
+    margin-top: 11%;
+    margin-bottom: 11%;
+    background: white;
+    width: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.61);
+    border: solid black 1px;
+    border-radius: 10px;
+}
+#for{
+    padding:0px 40px 0px 40px;
+}
+
+input[type=text], input[type=password], [type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #e0706cde;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all .4s ease-in-out;
+}
+button:hover {
+    
+background: rgba(0, 0, 0, 0.699);
+}
+
+
+
+.container {
+    padding: 16px;
+}
+
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+    .container{
+        width: 70%;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+}
